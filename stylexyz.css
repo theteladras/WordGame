@@ -1,0 +1,210 @@
+
+body {
+    position: relative;
+    z-index: 5;
+
+                font-family:'Spectral', Arial, sans-serif;
+                              /* optional, center the image */
+            }
+            form {
+                font-size: 1.5em;
+                position: relative;
+                top: 10px;
+            }
+            .scrambled, input, button {
+                font-family: 'Spectral', monospace;
+                font-size: 2em;
+            }
+            .btn-success {
+              position: relative;
+              top: -7px;
+            }
+            .btn-danger {
+              position: relative;
+              top: -7px;
+            }
+            #btn1 {position:absolute;
+                width:214px;
+                color:red;
+                border: none;
+                left:135px;
+            }
+            #btn {
+                border:none;
+            }
+            #printed {
+                position: relative;
+                top: -20px;
+                -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s infinite;}
+    @-webkit-keyframes mymove {
+        0% {left:-140px; color:red;}
+        50% {left:150px;
+            color:skyblue;
+        }
+        100% {left:-140px;
+            color: red;
+        }}
+        #results
+        {
+            font-weight:bolder;
+            font-size: 20px;
+            position: relative;
+            top: -10px;
+            padding:0 0 0 0;
+            margin-bottom: -24px;
+            margin-top: 23px;
+            border-radius: 3px;
+            height: 32px;
+        }
+
+        .container-fluid {
+          text-align: center;
+        }
+        #titleUp {
+          position: relative;
+          top: -20px;
+        }
+
+        #textfontgoogle {
+          position: relative;
+          top: -100px;
+          font-size: 80px;
+          font-family: 'Spectral', monospace;
+        }
+        #sredinaekrana {
+          position: relative;
+          top: 200px;
+        }
+
+        hr {
+          background-color: black;
+        }
+
+        .form-control {
+          position: relative;
+          top: -22px;
+          font-size: 30px;
+        }
+
+        #btnHint {
+          position: relative;
+          top: 6px;
+          margin-bottom: 0px;
+          margin-top: -7px;
+          outline: none;
+          font-weight: bold;
+        }
+
+        #xyzBACKGROUND {
+          position: fixed;
+          width: 100%;
+          min-height: 100%;
+
+          z-index: -1;
+        }
+
+#naslov {
+  position: relative;
+  width: 300px;
+}
+
+#textfontgoogle {
+  position: relative;
+  z-index: 3;
+  top: -90px;
+  background-color: rgba(180,110, 180, 0.5);
+  border-radius: 50px;
+}
+
+h2 {
+background-color: rgba(20,140, 250, 0.4);
+border-radius: 5px;
+}
+upabit {
+  position: relative;
+  top: -30px;
+}
+
+#signal {
+  margin-right: 26.2%;
+  z-index: 4;
+float: right;
+  margin-top: -10px;
+}
+
+
+  @media (max-width: 1300px) {
+    #signal {
+      margin-right: 23.5%;
+    }
+  }
+  @media (max-width: 1200px) {
+    #signal {
+      margin-right: 21%;
+    }
+  }
+  @media (max-width: 1100px) {
+    #signal {
+      margin-right: 20%;
+    }
+  }
+  @media (max-width: 1000px) {
+    #signal {
+      margin-right: 15.8%;
+    }
+  }
+  @media (max-width: 900px) {
+    #signal {
+      margin-right: 12%;
+    }
+  }
+  @media (max-width: 800px) {
+    #signal {
+      margin-right: 6%;
+    }
+  }
+  @media (max-width: 700px) {
+    #signal {
+      margin-right: -2%;
+    }
+  }
+  @media (max-width: 500px) {
+    #signal {
+      margin-right: -2%;
+      margin-top: -16.5px;
+    }
+  }
+
+        @media (max-width: 600px) {
+          .form-control {
+            top: -30px;
+          }
+        }
+
+          @media (max-width: 400px) {
+          .header2 {
+            position: relative;
+            top: -80px;
+          }
+          #printed {
+            position: relative;
+            top: -100px;
+          }
+          .form-control {
+            top: -100px;
+          }
+          llrb {
+            position: relative;
+            top: -80px;
+          }
+          lllbr {
+            position: relative;
+            top: 20px;
+            margin-bottom: -80px;
+          }
+          #signal {
+            margin-right: -10%;
+
+          }
+          }

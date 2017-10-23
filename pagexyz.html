@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-height, initial-scale=1">
+  <meta name="viewport" content="width=device-height, initial-scale=1">
+  <link rel="stylesheet" href="stylexyz.css">
+  <link href=' https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>XYZ-WORD GAME</title>
+</head>
+
+<body>
+  <image src="images/xyzBG.jpeg" id="xyzBACKGROUND">
+
+  <div class="container-fluid" id="sredinaekrana">
+  <div class="container-fluid" id="titleUp">
+  <h1 class=".text-center" id="textfontgoogle">XYZ Word Game!</h1>
+</div>
+  <div class="container-fluid">
+    <upabit>
+     <form id="joke-form">
+         <label>
+             <h2 style="font-family: 'Spectral', monospace; font-weight:bolder;" class="header2"> Unscramble these letters to form a word: </h2><Br>
+             <span class="scrambled" id="printed"></span>
+             <span class="scrambled" id="wtf"></span>
+             <br>
+             <input type="text" size="15" name="blam" placeholder="Unscrambled" class="form-control" autocomplete="off">
+         </label><br>
+         <llrb>
+         <button type="submit" class="btn btn-success"> Check </button>
+
+
+     </form><button type="button" class="btn btn-danger" id="NotifBtn">Next Word</button><br>
+   </upabit><lllbr>
+<button type="submit" class="btn btn-info btn-block" id="btnHint" style="font-family: 'Spectral', monospace;">Click to get a HINT <b>(2x)</b></button>
+     <hr>
+
+     <div id="results" style="font-family: 'Spectral', monospace;"></div><br>
+   </div></llrb>
+ </lllbr>
+     <div id="glupost"></div>
+   </div>
+   <div class="container-fluid">
+   <div id="signal" class="correcte"><image src="images/correct.png" alt="correct" style="width:22px;"></div>
+   </div>
+   <div class="container-fluid">
+   <div id="signal" class="closee"><image src="images/close.png" alt="uncorrect" style="width:22px;"></div>
+   </div>
+   <audio id="correctA" preload="auto">
+   <source src="sound/Correct.mp3"></source>
+   </audio>
+   <audio id="falseA" preload="auto">
+   <source src="sound/False.mp3"></source>
+   </audio>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+         <script src="ScriptFilexyz.js"></script>
+</body>
+</html>
